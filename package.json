@@ -1,0 +1,19 @@
+{
+  "name": "codeine-backend",
+  "version": "1.0.0",
+  "description": "Codeine website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manisarmah/Codeine-backend.git"
+  },
+  "author": "Manish Sarmah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manisarmah/Codeine-backend/issues"
+  },
+  "homepage": "https://github.com/manisarmah/Codeine-backend#readme"
+}
