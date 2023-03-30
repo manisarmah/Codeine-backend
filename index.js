@@ -6,6 +6,7 @@ import dotenv from "dotenv";
 import codeforcesRoutes from "./routes/codeforces.js";
 import leetcodeRoutes from "./routes/leetcode.js";
 import codechefRoutes from "./routes/codechef.js";
+import authRoutes from "./routes/auth.js";
 const app = express();
 
 app.use(cors());
@@ -16,6 +17,7 @@ dotenv.config();
 app.use("/codeforces", codeforcesRoutes);
 app.use("/leetcode", leetcodeRoutes);
 app.use("/codechef", codechefRoutes);
+app.use("/api/auth", authRoutes);
 const PORT = process.env.PORT || 5000;
 mongoose
   .connect(process.env.CONNECTION_URL, {
